@@ -8,7 +8,7 @@ def my_each # put argument(s) here
  # after we iterate, we should return original array
  index = 0
  while index < array.length 
-    yield(array[index], index)
+    yield(array[index])
     # index += 1
     index = index + 1
   end
@@ -17,7 +17,7 @@ end
 
   array =["Bob", "Sarah", "Tim"]
 
-  my_each(array) do |name, index|
+  my_each(array) do |name|
    puts "#{index}, #{name}"  
   
   end
