@@ -12,11 +12,11 @@ def my_each(array) # put argument(s) here
   return array
 end
 
-array =["Bob", "Sarah", "Tim"]
+# array =["Bob", "Sarah", "Tim"]
 
-my_each(array) do |name|
-  puts name  
-end
+# my_each(array) do |name|
+#   puts name  
+# end
 
 # array.each do |name|
 #   puts name
