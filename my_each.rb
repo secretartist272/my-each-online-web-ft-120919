@@ -1,7 +1,7 @@
 require_relative ' ./spec/my_each_spec.rb.'
 
 
-def my_each # put argument(s) here
+def my_each(array) # put argument(s) here
   # iterate through array
  # "yeild" each element to a code block
  #  were going to do something in the block
