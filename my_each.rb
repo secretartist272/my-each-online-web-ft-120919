@@ -11,13 +11,3 @@ def my_each(array) # put argument(s) here
   end
   return array
 end
-
-# array =["Bob", "Sarah", "Tim"]
-
-# my_each(array) do |name|
-#   puts name  
-# end
-
-# array.each do |name|
-#   puts name
-# end # original array
