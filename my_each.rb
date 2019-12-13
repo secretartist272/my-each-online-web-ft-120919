@@ -12,13 +12,13 @@ def my_each # put argument(s) here
     # index += 1
     index = index + 1
   end
-  
+  return array
 end
 
   array =["Bob", "Sarah", "Tim"]
 
   my_each(array) do |name|
-   puts "#{index}, #{name}"  
+   puts name  
   
   end
 
