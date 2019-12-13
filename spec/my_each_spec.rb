@@ -1,3 +1,4 @@
+require_relative '../my_each.rb'
 require_relative 'spec_helper'
 require 'pry'
 
