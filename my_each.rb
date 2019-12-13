@@ -1,4 +1,4 @@
-require_relative ''
+require_relative ' ./spec/my_each_spec.rb.'
 
 
 def my_each # put argument(s) here
